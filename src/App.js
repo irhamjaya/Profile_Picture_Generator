@@ -5,22 +5,35 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <body>
+    <div className="container text center-p">
+      <nav class="navbar navbar-expand-lg navbar-lg blue"
+       class="form-inline my-2 my-lg-0 cari"/><form>
+         <center>
+      <input class="form-control mr-sm-2" type="search" 
+      placeholder="Ketik Nama Anda" 
+      aria-label="Search"
+       text="Ketik Nama Anda"/>
+       </center>
+       <center>
+       <h3 class="mt-4"></h3>
+      <button class="btn btn-outline-success my-5 my-sm-0" 
+      type="submit">Buat Profil Picture</button>  
+      </center>
+      </form> 
+      <div class="row">
+      <div class="col-4 p-0 text center">
+      <a href="#"></a>
+      <div class="row">
+          <div class= "col-4 p-0 img">
+          </div>
+
       </div>
+      </div>
+      </div>
+      </div>
+      </body>  
+      
     );
   }
 }
